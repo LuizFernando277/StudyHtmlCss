@@ -1,0 +1,43 @@
+.cabecalho {
+    background-color: rgb(62, 150, 96);
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: auto;
+    width: 80%;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    margin: 30px;
+    background-color: rgb(124, 231, 156);
+}
+
+
+.cabecalho2 {
+    background-color: rgb(26, 34, 143);
+    text-align: center;
+    color: white;
+}
+
+.conteudo2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.card2 {
+    width: 300px;
+    height: 150px;
+    margin: 30px;
+    background-color: rgb(103, 131, 255);
+}

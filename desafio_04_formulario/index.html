@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="textos">
+            <div>
+                <label for="modeloCarro">Modelo do Carro: </label>
+                <input type="text" id="modeloCarro" placeholder="Ex: Uno">
+            </div>
+            <div>
+                <label for="marcaCarro">Marca do Carro: </label>
+                <input type="text" id="marcaCarro" placeholder="Ex: Fiat">
+            </div>
+            <div>
+                <label for="anoCarro">Ano do Carro: </label>
+                <input type="text" id="anoCarro" placeholder="Ex: 2010">
+            </div>
+            <div>
+                <label for="quilometragemCarro">Quilometragem do Carro: </label>
+                <input type="text" id="quilometragemCarro" placeholder="Ex: 150.000km">
+            </div>
+            <div>
+                <label for="valorCarro">Valor do Carro: </label>
+                <input type="text" id="valorCarro" placeholder="Ex: R$20.000,00">
+            </div>
+        </div>
+
+        <div class="radios">
+            <div>
+                <input type="radio" id="estadoCarro">
+                <label for="estadoCarro">Novo</label>
+            </div>
+            <div>
+                <input type="radio" id="estadoCarro">
+                <label for="estadoCarro">Usado</label>
+            </div>
+        </div>
+
+        <div class="checks">
+            <div>
+                <input type="checkbox" id="adicionaisCarro">
+                <label for="adicionaisCarro">Ar Condicionado</label>
+            </div>
+            <div>
+                <input type="checkbox" id="adicionaisCarro">
+                <label for="adicionaisCarro">Airbag</label>
+            </div>
+            <div>
+                <input type="checkbox" id="adicionaisCarro">
+                <label for="adicionaisCarro">Direção Hidraúlica</label>
+            </div>
+            <div>
+                <input type="checkbox" id="adicionaisCarro">
+                <label for="adicionaisCarro">Alarme</label>
+            </div>
+        </div>
+
+        <div class="selectPlaca">
+            <label for="finalPlacaCarro">Final da Placa do Carro</label>
+            <select name="finalPlacaCarro" id="finalPlacaCarro">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+
+        <div class="btnEnviar">
+            <input type="submit" name="Enviar">
+        </div>
+    </form>
+</body>
+</html>

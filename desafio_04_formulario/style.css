@@ -1,0 +1,33 @@
+.textos {
+    border-color: black;
+    border-style: dashed;
+    padding: 20px;
+}
+
+.radios {
+    border-color: black;
+    border-style: dashed;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.checks {
+    border-color: black;
+    border-style: dashed;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.selectPlaca {
+    border-color: black;
+    border-style: dashed;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.btnEnviar {
+    border-color: black;
+    border-style: dashed;
+    padding: 20px;
+    margin-top: 50px;
+}

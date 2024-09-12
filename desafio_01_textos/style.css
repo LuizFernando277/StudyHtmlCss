@@ -1,0 +1,116 @@
+.container {
+    width: 550px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.apresentacao1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#paragrafo1 {
+    height: 40px;
+    width: 250px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragrafo2 {
+    height: 40px;
+    width: 250px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+#paragrafo3 {
+    height: 40px;
+    width: 250px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragrafo4 {
+    height: 40px;
+    width: 250px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roho {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.rotina {
+    height: 230px;
+    width: 250px;
+    border: 50px 50px;
+    background-color: rgb(195, 96, 252);
+    text-align: justify;
+}
+
+#rotina1 {
+    padding: 0px 10px;
+}
+
+.hobbie {
+    height: 230px;
+    width: 250px;
+    background-color: rgb(204, 255, 84);
+    text-align: justify;
+}
+
+#hobbie1 {
+    padding: 0px 10px;
+}
+
+.arvi {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.artistas {
+    height: 230px;
+    width: 250px;
+    border: 50px 50px;
+    background-color: rgb(204, 255, 84);
+    text-align: justify;
+}
+
+#artistas1 {
+    padding: 0px 10px;
+}
+
+.viagens {
+    height: 230px;
+    width: 250px;
+    background-color: rgb(195, 96, 252);
+    text-align: justify;
+}
+
+#viagens1 {
+    padding: 0px 10px;
+}
+
+h2 {
+    padding-left: 10px;
+}
