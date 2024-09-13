@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="firstHead">
+        <input id="seachBar" type="text">
+    </div>
+
+    <div class="secondHead">
+        <section>
+            <a href="categorias.html" class="navOptions">Categorias</a>
+            <a href="ofertas.html" class="navOptions">Ofertas do Dia</a>
+            <a href="historico.html" class="navOptions">Histórico</a>
+            <a href="moda.html" class="navOptions">Moda</a>
+        </section>
+
+        <form>
+            <div class="textos">
+                <div>
+                    <label for="nomeUsuario">Nome: </label>
+                    <input type="text" id="nomeUsuario" placeholder="Ex: Pedro">
+                </div>
+                <div>
+                    <label for="emailUsuario">E-mail: </label>
+                    <input type="email" id="emailUsuario" placeholder="Ex: pedro@gmail.com">
+                </div>
+                <div>
+                    <label for="senhaUsuario">Senha: </label>
+                    <input type="password" id="senhaUsuario" placeholder="***********">
+                </div>
+                <div>
+                    <label for="senhaRepUsuario">Repetir Senha: </label>
+                    <input type="password" id="senhaRepUsuario" placeholder="***********">
+                </div>
+            </div>
+    
+            <div class="selectSexo">
+                <label for="sexoUsuario">Sexo</label>
+                <select name="sexoUsuario" id="sexoUsuario">
+                    <option value=""></option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+            </div>
+    
+            <div class="btnEnviar">
+                <input type="submit" name="Enviar">
+            </div>
+        </form>
+        <a href="index.html"><button>INÍCIO</button></a>
+    </div>

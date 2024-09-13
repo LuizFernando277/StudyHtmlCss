@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(194, 194, 194);
+    margin: auto;
+}
+
+.firstHead {
+    height: 14vh;
+    background-color:rgb(226, 226, 0);
+    line-height: 13vh;
+    text-align: center;
+}
+
+#seachBar {
+    height: 20px;
+    border-radius: 20px;
+}
+
+.secondHead {
+    height: 7vh;
+    background-color:rgb(226, 226, 0);
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    line-height: 6vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navOptions {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.container {
+    height: 12vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.leftContent {
+    margin-right: 0px 20px;
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+
+.rightContent {
+    margin: 0 20px;
+    margin-left: 5px;
+}
+
+h3 {
+    margin: 0px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.navOptions:hover {
+    padding: 0.2%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.cel {
+    height: 400px;
+    width: 320px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px gray solid;;
+}
+
+.cel:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    height: 540px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.descProd {
+    text-align: center;
+}
+
+#precoAntigo {
+    color: gray;
+}
+
+.separador {
+    border-top: 2px gray solid;
+}
