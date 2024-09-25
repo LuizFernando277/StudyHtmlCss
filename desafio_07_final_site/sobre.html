@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header id="header">
+            <a id="logo" href="index.html">Logo</a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburguer"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+                <button onclick="showModal()" id="btnCarrinho"><img src="imgs/carrinho.png" alt="carrinho" width="35px" height="35px"></button>
+                <div class="modal" id="modal">
+                    <div class="modal-content">
+                        <span id="spanModal" onclick="hideModal()">&times;</span>
+                        <div class="tituloCarrinho">
+                            <h1>Logo | Carrinho</h1>
+                        </div>
+                        <div class="conteudoCarrinho">
+                            <h2>Descrição</h2>
+                            <h2>|</h2>
+                            <h2>Quantidade</h2>
+                            <h2>|</h2>
+                            <h2>Valor</h2>
+                        </div>
+                        <div class="conteudoCarrinho">
+                            <h3>Item 1</h3>
+                            <h3>1</h3>
+                            <h3>R$0,00</h3>
+                        </div>
+                        <div class="conteudoCarrinho">
+                            <h3>Item 2</h3>
+                            <h3>1</h3>
+                            <h3>R$0,00</h3>
+                        </div>
+                        <div class="conteudoCarrinho">
+                            <h3>Item 3</h3>
+                            <h3>1</h3>
+                            <h3>R$0,00</h3>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="content-total-sobre">
+            <div class="conteudo-sobre">
+                <h1>Sobre nós</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ducimus accusamus sunt 
+                    consequuntur repellat blanditiis sit praesentium sequi ut, delectus doloremque! Mollitia 
+                    minus cum, accusantium dicta cupiditate rem perferendis beatae?  Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit. A similique iste laudantium reprehenderit architecto 
+                    voluptate eius blanditiis maiores minus autem facere voluptas rem, suscipit quibusdam esse 
+                    voluptatibus, commodi officia tempora! Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Dolores quibusdam, et sit fugiat quis suscipit? Nam officia architecto delectus 
+                    quasi? Voluptas dicta illo provident ex doloremque qui cum, molestiae voluptatibus.
+                </p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ducimus accusamus sunt 
+                    consequuntur repellat blanditiis sit praesentium sequi ut, delectus doloremque! Mollitia 
+                    minus cum, accusantium dicta cupiditate rem perferendis beatae?  Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="formulario">
+                <form>
+                    <div>
+                        <h2>Receber Ofertas:</h2>
+                    </div>
+                    <div class="primeiraOpcao">
+                        <input type="text" id="nameUser" placeholder="Nome">
+                        <input type="text" id="emailUser" placeholder="Email">
+                    </div>
+                    <div class="segundaOpcao">
+                        <input type="text" id="telephoneUser" placeholder="Telefone">
+                        <button type="submit" class="btnEnviar" onclick="saveToLocalStorage()">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer id="footer">
+        <a id="logo" href="index.html">Logo</a>
+        </footer>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
