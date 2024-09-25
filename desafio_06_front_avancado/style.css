@@ -1,0 +1,47 @@
+input:focus {
+    outline: none;
+    border: 1px solid #a200ff !important;
+}
+
+.header {
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+.divTextos {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.infLoja {
+    margin: 10px 0px;
+}
+
+.divCheck {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.infDias {
+    margin: 10px 0px;
+}
+
+.horaFuncionamento {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.infHora {
+    margin: 10px 0px;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+@media (max-width: 950px) {
+    .header {
+        background-color: lightblue;
+    }
+}
